@@ -1,0 +1,2 @@
+docker run --rm  -v=/Work:/files jrottenberg/ffmpeg -i /files/Neelakkuyil_TZSH650_S1_E239_v2_TZI158446_552893436.mxf -s 640x360 -c:v libx264 -vb 512k -c:a aac -ab 96k -preset fast -movflags faststart /files/out.mp4 -y
+
